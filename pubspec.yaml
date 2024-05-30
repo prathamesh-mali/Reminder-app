@@ -1,0 +1,36 @@
+name: reminder
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  bloc: null
+  cupertino_icons: ^1.0.6
+  equatable: null
+  flutter:
+    sdk: flutter
+  flutter_bloc: null
+  flutter_local_notifications: ^17.1.2
+  flutter_slidable: null
+  fluttertoast: ^8.2.5
+  font_awesome_flutter: ^10.7.0
+  google_fonts: ^6.2.1
+  hydrated_bloc: null
+  intl: ^0.19.0
+  meta: null
+  path_provider: null
+  timezone: ^0.9.3
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
